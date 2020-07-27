@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests" >
+<listeners>
+<listener class-name = "Framework.E2EProject.Listeners"  />
+</listeners>  
+  
+  <test thread-count="5" name="HomePageLaunch">
+    <classes>
+      <class name="Framework.E2EProject.HomePage"/>
+     </classes>
+  </test> <!-- TestSuite -->
+  <test thread-count="5" name="ValidateLandingPage">
+    <classes>
+       <class name="Framework.E2EProject.Validation_Landingpage"/>
+    </classes>
+  </test> <!-- TestSuite -->
+   <test thread-count="5" name="ValidateTitle">
+    <classes>
+       <class name="Framework.E2EProject.ValidationTitle"/>
+    </classes>
+  </test> <!-- TestSuite -->
+</suite> <!-- Suite -->

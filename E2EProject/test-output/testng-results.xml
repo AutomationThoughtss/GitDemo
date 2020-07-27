@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-02T21:02:21 BST" name="Suite" finished-at="2020-07-02T21:02:39 BST" duration-ms="17755">
+    <groups>
+    </groups>
+    <test started-at="2020-07-02T21:02:21 BST" name="ValidateLandingPage" finished-at="2020-07-02T21:02:29 BST" duration-ms="7841">
+      <class name="Framework.E2EProject.Validation_Landingpage">
+        <test-method is-config="true" signature="OpenURL()[pri:0, instance:Framework.E2EProject.Validation_Landingpage@2e11485]" started-at="2020-07-02T21:02:21 BST" name="OpenURL" finished-at="2020-07-02T21:02:28 BST" duration-ms="6880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenURL -->
+        <test-method signature="ValidateNavigationBar()[pri:0, instance:Framework.E2EProject.Validation_Landingpage@2e11485]" started-at="2020-07-02T21:02:28 BST" name="ValidateNavigationBar" finished-at="2020-07-02T21:02:28 BST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNavigationBar -->
+        <test-method signature="ValidateTitle()[pri:0, instance:Framework.E2EProject.Validation_Landingpage@2e11485]" started-at="2020-07-02T21:02:28 BST" name="ValidateTitle" finished-at="2020-07-02T21:02:28 BST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitle -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Framework.E2EProject.Validation_Landingpage@2e11485]" started-at="2020-07-02T21:02:28 BST" name="TearDown" finished-at="2020-07-02T21:02:29 BST" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Framework.E2EProject.Validation_Landingpage -->
+    </test> <!-- ValidateLandingPage -->
+    <test started-at="2020-07-02T21:02:21 BST" name="ValidateTitle" finished-at="2020-07-02T21:02:29 BST" duration-ms="8029">
+      <class name="Framework.E2EProject.ValidationTitle">
+        <test-method signature="Validatepagetitle()[pri:0, instance:Framework.E2EProject.ValidationTitle@75c9e76b]" started-at="2020-07-02T21:02:21 BST" name="Validatepagetitle" finished-at="2020-07-02T21:02:27 BST" duration-ms="6372" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COUR] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COUR] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at Framework.E2EProject.ValidationTitle.Validatepagetitle(ValidationTitle.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validatepagetitle -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Framework.E2EProject.ValidationTitle@75c9e76b]" started-at="2020-07-02T21:02:28 BST" name="TearDown" finished-at="2020-07-02T21:02:29 BST" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Framework.E2EProject.ValidationTitle -->
+    </test> <!-- ValidateTitle -->
+    <test started-at="2020-07-02T21:02:21 BST" name="HomePageLaunch" finished-at="2020-07-02T21:02:39 BST" duration-ms="17755">
+      <class name="Framework.E2EProject.HomePage">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Framework.E2EProject.HomePage@2cae1042]" started-at="2020-07-02T21:02:21 BST" name="basePageNavigation" data-provider="getData" finished-at="2020-07-02T21:02:31 BST" duration-ms="9903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[badpasswrd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricteduser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Framework.E2EProject.HomePage@2cae1042]" started-at="2020-07-02T21:02:31 BST" name="basePageNavigation" data-provider="getData" finished-at="2020-07-02T21:02:39 BST" duration-ms="7809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[unrestricted@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[goodpassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Unrestricted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Framework.E2EProject.HomePage -->
+    </test> <!-- HomePageLaunch -->
+  </suite> <!-- Suite -->
+</testng-results>

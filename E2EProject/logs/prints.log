@@ -1,0 +1,28 @@
+19:53:09.227 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Entering Username
+19:53:09.325 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Entering Password
+19:53:09.607 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Restricteduser
+19:53:13.749 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Driver is initialized
+19:53:15.893 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Navigated to Home Page
+19:53:17.376 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Entering Username
+19:53:17.463 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Entering Password
+19:53:17.825 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Unrestricted
+20:06:31.581 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Driver is initialized
+20:06:37.471 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Navigated to Home Page
+20:06:39.059 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Entering Username
+20:06:39.236 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Entering Password
+20:06:39.570 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Restricteduser
+20:06:43.793 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Driver is initialized
+20:06:53.771 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Navigated to Home Page
+20:06:55.397 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Entering Username
+20:06:55.558 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Entering Password
+20:06:55.956 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Unrestricted
+20:07:30.204 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Driver is initialized
+20:07:32.572 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Navigated to Home Page
+20:07:34.269 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Entering Username
+20:07:34.464 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Entering Password
+20:07:34.744 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Restricteduser
+20:07:38.897 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Driver is initialized
+20:07:40.974 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Navigated to Home Page
+20:07:42.369 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Entering Username
+20:07:42.453 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Entering Password
+20:07:42.937 [TestNG-tests-1] INFO  Framework.E2EProject.HomePage - Unrestricted
